@@ -2,7 +2,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    background: rgb(139, 103, 36);
+    background: #8b6724;
+    font-size: 18px;
 }
 
 .logo {
@@ -49,6 +50,72 @@ h3 {
     background-color: rgba(255, 208, 0, 0.533);
     text-align: center;
     font-size: 14px;
+    padding: 4px;
     font-weight: bold;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.oixtail_header {
+    display: flex;
+    align-items: center;
+}
+
+.oixtail_header .oixtail_des {
+    flex: 1;
+    padding: 10px;
+}
+
+.hero {
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+.oixtail_img {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.oixtail_img img {
+    border-radius: 12px 100px;
+}
+
+.recipe {
+    text-align: center;
+    font-size: 70px;
+    color: #513373;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(76,46,110),
+                 1px 1px 0 rgb(71,41,105),
+                 2px 2px 0 rgb(66,36,100),
+                 3px 3px 0 rgb(61,31,95),
+                 4px 4px 0 rgb(56,26,90),
+                 5px 5px 0 rgb(51,21,85),
+                 6px 6px 0 rgb(46,16,80),
+                 7px 7px 0 rgb(41,11,75),
+                 8px 8px 0 rgb(36,6,70),
+                 9px 9px 0 rgb(31,1,65),
+                 10px 10px  0 rgb(26,-4,60),
+                 11px 11px 10px rgba(255,255,255,0.6),
+                 11px 11px 1px rgba(255,255,255,0.5),
+                 0px 0px 10px rgba(255,255,255,.2);
+    
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgb(0 0 0 / 50%);
+}
+
+.ingredients, .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home {
+    border: 4px solid;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 12px;
 }
